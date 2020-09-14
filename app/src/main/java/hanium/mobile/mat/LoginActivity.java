@@ -62,7 +62,7 @@ public class LoginActivity extends AppCompatActivity {
                 @Override
                 public void onResponse(String response) {
                     try {
-//                        Toast.makeText(LoginActivity.this, "hihihihihi", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(LoginActivity.this, "hihihihihi", Toast.LENGTH_SHORT).show();
                         JSONObject jasonObject=new JSONObject(response);
                         boolean success=jasonObject.getBoolean("success");
                         if (success) {//로그인 성공한 경우

@@ -8,9 +8,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
         android:layout_marginStart="160dp"
         android:layout_marginLeft="160dp"
-        android:layout_marginTop="209dp"
+        android:onClick="onClick"
         android:text="Button" />
 </RelativeLayout>
